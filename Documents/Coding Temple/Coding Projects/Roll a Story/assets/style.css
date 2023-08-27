@@ -83,6 +83,8 @@ html, body {
   .modal-content p {
     text-align: center;
     margin-bottom: 20px;
+    font-family: "Montserrat", serif;
+    font-size: 1rem;
   }
 
   .modal-content.show {
@@ -98,6 +100,7 @@ html, body {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px; 
+    /* font-family: "Caveat", serif; */
   }
   
   h1 {
@@ -128,6 +131,7 @@ html, body {
   
   p {
     margin-bottom: 10px;
+    /* font-family: "Caveat", serif; */
   }
   
   button {

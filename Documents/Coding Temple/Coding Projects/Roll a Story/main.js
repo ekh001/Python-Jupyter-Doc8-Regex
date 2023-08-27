@@ -127,9 +127,10 @@ function generatePrompt() {
     var randomResolution = resolutions[Math.floor(Math.random() * resolutions.length)];
   
     var modalPromptContent = document.getElementById("modal-prompt");
-    modalPromptContent.textContent = `
-      Once upon a time, ${randomCharacter} found themselves ${randomSetting}.
-      They faced the challenge of ${randomConflict}.
+    modalPromptContent.innerHTML = `
+      Character named:<br> ${randomCharacter} <br><br>
+      Setting:<br> ${randomSetting} <br><br>
+      Conflict:<br> ${randomConflict} <br><br>
       In the end, they resolved it ${randomResolution}.
     `;
   
