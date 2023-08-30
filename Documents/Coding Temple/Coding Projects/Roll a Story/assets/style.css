@@ -19,7 +19,7 @@ html, body {
   #main-content {
     background: linear-gradient(to bottom, #0b0e0b, #727872);
     letter-spacing: 3px;
-    position: relative;
+    /* position: relative; */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(13, 13, 13, 0.3);
@@ -91,7 +91,6 @@ html, body {
     opacity: 1;
   }
   
-  /* Main Content Styling */
   .container {
     display: flex;
     flex-direction: column;
@@ -135,7 +134,7 @@ html, body {
   }
   
   button {
-    width: 30%;
+    width: 35%;
     padding: 10px 20px;
     margin: 5px;
     background-color: #32393654;
@@ -148,8 +147,7 @@ html, body {
   }
 
   button:hover {
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgb(251, 251, 251);
-    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(251, 251, 251); 
   }
   

@@ -134,7 +134,7 @@ function generatePrompt() {
       In the end, they resolved it ${randomResolution}.
     `;
   
-    // Display the modal
+
     var modalContainer = document.getElementById("modal-container");
     modalContainer.style.display = "flex";
 
@@ -153,7 +153,6 @@ function generatePromptChaos() {
     In the end, they resolved it ${randomResolutionChaos}.
   `;
 
-  // Display the modal
   var modalContainer = document.getElementById("modal-container");
   modalContainer.style.display = "block";
 
