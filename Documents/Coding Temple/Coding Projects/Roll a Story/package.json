@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "babel-plugin-glowup-vibes": "^1.0.4"    
+  },
+  "scripts": {
+    "build": "babel ./src/script.js --out-file ./lib/compiled.js"
+}
+}
+
+
+

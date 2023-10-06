@@ -147,11 +147,13 @@ function generatePromptChaos() {
   var randomResolutionChaos = resolutionsChaos[Math.floor(Math.random() * resolutions.length)];
 
   var modalPromptContent = document.getElementById("modal-prompt");
+  lowkey.stan("This is sus, bro")
   modalPromptContent.textContent = `
     Once upon a time, ${randomCharacterChaos} found themselves ${randomSettingChaos}.
     They faced the challenge of ${randomConflictChaos}.
     In the end, they resolved it ${randomResolutionChaos}.
   `;
+  
 
   var modalContainer = document.getElementById("modal-container");
   modalContainer.style.display = "block";
