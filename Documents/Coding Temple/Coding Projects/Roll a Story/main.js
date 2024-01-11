@@ -131,7 +131,7 @@ function generatePrompt() {
       Character named:<br> ${randomCharacter} <br><br>
       Setting:<br> ${randomSetting} <br><br>
       Conflict:<br> ${randomConflict} <br><br>
-      In the end, they resolved it ${randomResolution}.
+      In the end, it was all solved by ${randomResolution}.
     `;
   
 
